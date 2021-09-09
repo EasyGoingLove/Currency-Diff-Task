@@ -5,12 +5,13 @@ import GroupBox from "./GroupBox/GroupBox";
 import "./Dropdown.css";
 
 type objectType = { key: string; value: number };
+
 const Dropdown = () => {
   const [display1, setDisplay1] = useState<JSX.Element>(),
     [display2, setDisplay2] = useState<JSX.Element>(),
     [display3, setDisplay3] = useState<JSX.Element>();
 
-  const cl = async (currName: string) => {
+  const clickHandler = async (currName: string) => {
     const cacheName = `currency-1`;
     const baseUrl =
       "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies";
@@ -61,7 +62,7 @@ const Dropdown = () => {
         }
       }
 
-      //  console.log(clickedData);
+      //  console.log(clickHandlerickedData);
 
       setDisplay1(<GroupBox boxNumber={1} boxData={group1} />);
       setDisplay2(<GroupBox boxNumber={2} boxData={group2} />);
@@ -81,7 +82,7 @@ const Dropdown = () => {
                 <li>
                   <a
                     onClick={() => {
-                      cl("usd");
+                      clickHandler("usd");
                     }}
                   >
                     USD
@@ -90,7 +91,7 @@ const Dropdown = () => {
                 <li>
                   <a
                     onClick={() => {
-                      cl("eur");
+                      clickHandler("eur");
                     }}
                   >
                     EUR
@@ -99,7 +100,7 @@ const Dropdown = () => {
                 <li>
                   <a
                     onClick={() => {
-                      cl("aud");
+                      clickHandler("aud");
                     }}
                   >
                     AUD
@@ -108,7 +109,7 @@ const Dropdown = () => {
                 <li>
                   <a
                     onClick={() => {
-                      cl("cad");
+                      clickHandler("cad");
                     }}
                   >
                     CAD
@@ -117,7 +118,7 @@ const Dropdown = () => {
                 <li>
                   <a
                     onClick={() => {
-                      cl("chf");
+                      clickHandler("chf");
                     }}
                   >
                     CHF
@@ -126,7 +127,7 @@ const Dropdown = () => {
                 <li>
                   <a
                     onClick={() => {
-                      cl("nzd");
+                      clickHandler("nzd");
                     }}
                   >
                     NZD
@@ -135,7 +136,7 @@ const Dropdown = () => {
                 <li>
                   <a
                     onClick={() => {
-                      cl("bgn");
+                      clickHandler("bgn");
                     }}
                   >
                     BGN
