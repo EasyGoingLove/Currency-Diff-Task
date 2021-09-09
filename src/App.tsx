@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
 
-function App() {
+import cache from "./services/cache";
+import Dropdown from "./components/Dorpdown";
+import "./App.css";
+
+const App = () => {
+  useEffect(() => {
+    const baseUrl =
+      "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies";
+    const currencyCodes = ["usd", "eur", "aud", "cad", "chf", "nzd", "bgn"];
+    for (let i of currencyCodes) {
+      cache(baseUrl, i);
+    }
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Dropdown />
     </div>
   );
-}
+};
 
 export default App;
