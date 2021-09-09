@@ -1,3 +1,20 @@
 .box-container{
-    
+    border: 4px solid rgb(177, 175, 175);
+    border-radius: 16%;
+}
+.box-header{
+    background-color: aliceblue;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 5em;
+    letter-spacing: -2px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+}
+
+.targeted-currencies{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 2em;
+    letter-spacing: -2px;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
 }

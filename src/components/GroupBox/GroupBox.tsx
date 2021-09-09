@@ -4,20 +4,23 @@ import './GroupBox.css';
 
 type BoxProps = {
     boxNumber:number,
-    boxData:object
+    boxData:any
 }
 const GroupBox = ({boxNumber,boxData}:BoxProps)=>{
     
-    console.log(Object.getOwnPropertyNames(boxData));
+    // console.log(Object.getOwnPropertyNames(boxData));
+    console.log(Object.values(boxData));
+    
     
     return(
         <div className="box-container">
             <h1 className="box-header">Group {boxNumber}</h1>
-            {Object.keys(boxData).map((e:any,i:number)=>{
+            {Object.getOwnPropertyNames(boxData).map((e:any,i:number)=>{
                    return(
-                       <h2>{i}</h2>
+                       <h3 className="targeted-currencies" key={`key:${i}`}>{e} - {boxData[`${e}`]}</h3>
                    )
             })}
+            <h3>Count:{Object.getOwnPropertyNames(boxData).length}</h3>
         </div>
     );
 };

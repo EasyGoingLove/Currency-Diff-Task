@@ -186,11 +186,13 @@ body {
       flex-wrap: nowrap;              
       justify-content: space-between;
       width: 90%;
-      margin-top: 6%;
+      margin-top: 4%;
   }
   .display-container >div{
-    width: 100px;
-    height: 100px;
+      background-color: aliceblue;
+    width: 90%;
+    height: 90%;
+    margin: 3%;
   }
   .display-container > div:nth-of-type(1){
       float: left;
