@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/currency-project/static/css/main.727ac254.chunk.css",
-    "main.js": "/currency-project/static/js/main.36b3138f.chunk.js",
-    "main.js.map": "/currency-project/static/js/main.36b3138f.chunk.js.map",
-    "runtime-main.js": "/currency-project/static/js/runtime-main.836eff75.js",
-    "runtime-main.js.map": "/currency-project/static/js/runtime-main.836eff75.js.map",
-    "static/js/2.788351cd.chunk.js": "/currency-project/static/js/2.788351cd.chunk.js",
-    "static/js/2.788351cd.chunk.js.map": "/currency-project/static/js/2.788351cd.chunk.js.map",
-    "static/js/3.82dccf62.chunk.js": "/currency-project/static/js/3.82dccf62.chunk.js",
-    "static/js/3.82dccf62.chunk.js.map": "/currency-project/static/js/3.82dccf62.chunk.js.map",
-    "index.html": "/currency-project/index.html",
-    "static/css/main.727ac254.chunk.css.map": "/currency-project/static/css/main.727ac254.chunk.css.map",
-    "static/js/2.788351cd.chunk.js.LICENSE.txt": "/currency-project/static/js/2.788351cd.chunk.js.LICENSE.txt"
+    "main.css": "/Currency-Diff-Task/static/css/main.727ac254.chunk.css",
+    "main.js": "/Currency-Diff-Task/static/js/main.36b3138f.chunk.js",
+    "main.js.map": "/Currency-Diff-Task/static/js/main.36b3138f.chunk.js.map",
+    "runtime-main.js": "/Currency-Diff-Task/static/js/runtime-main.e21214fe.js",
+    "runtime-main.js.map": "/Currency-Diff-Task/static/js/runtime-main.e21214fe.js.map",
+    "static/js/2.788351cd.chunk.js": "/Currency-Diff-Task/static/js/2.788351cd.chunk.js",
+    "static/js/2.788351cd.chunk.js.map": "/Currency-Diff-Task/static/js/2.788351cd.chunk.js.map",
+    "static/js/3.82dccf62.chunk.js": "/Currency-Diff-Task/static/js/3.82dccf62.chunk.js",
+    "static/js/3.82dccf62.chunk.js.map": "/Currency-Diff-Task/static/js/3.82dccf62.chunk.js.map",
+    "index.html": "/Currency-Diff-Task/index.html",
+    "static/css/main.727ac254.chunk.css.map": "/Currency-Diff-Task/static/css/main.727ac254.chunk.css.map",
+    "static/js/2.788351cd.chunk.js.LICENSE.txt": "/Currency-Diff-Task/static/js/2.788351cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.836eff75.js",
+    "static/js/runtime-main.e21214fe.js",
     "static/js/2.788351cd.chunk.js",
     "static/css/main.727ac254.chunk.css",
     "static/js/main.36b3138f.chunk.js"
